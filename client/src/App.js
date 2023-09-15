@@ -19,7 +19,6 @@ function App() {
       headers : {
         'Content-Type' : 'application/json'
       }
-        
       } )
     const data = await response.json()
      console.log (data)
@@ -33,14 +32,11 @@ function App() {
         <input  className='input' type='text' placeholder='enter' name='Email' onChange={handleForm}></input>
          <h2>password</h2>
         <input type='text'   className='input' placeholder='enter' name='password' onChange={handleForm}></input>
-
         <br/>
         <input type = "submit" className='btn btn-success my-3'></input>
       </form>
     </div>
   )
-  
 }
-
-export default App
+export default App;
 
